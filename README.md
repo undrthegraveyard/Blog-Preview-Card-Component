@@ -63,6 +63,7 @@ I coded the HTML5 syntax, and then styled it using CSS.
     font-weight: 800;
     margin-top: 1.5em;
 }
+```
 
 ### Continued development
 
