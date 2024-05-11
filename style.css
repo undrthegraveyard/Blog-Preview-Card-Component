@@ -1,3 +1,4 @@
+
 body
 {
     background-color: hsl(47, 88%, 63%);
@@ -21,7 +22,11 @@ main
     flex-direction: column;
     justify-content: center;
     margin: 0;
+    box-shadow: 10px 10px 0px 0px black;
 }
+main:hover {
+    box-shadow: 15px 15px 0px 0px black; 
+  }
 #image
 {
     width: 100%;
@@ -41,10 +46,17 @@ main
     border-radius: 0.25em;
     padding: 0.5em 1em;
     display: flex;
-    align-items: center;
-    justify-content: left; 
+    align-items: center; 
     display: inline-block;
     font-weight: 800;
+    margin-top: 1.5em;
+}
+.label p:nth-child(2)
+{
+    margin-top: 0.25em;
+    margin-bottom:0;
+    margin-left: 0;
+    margin-right: 0; 
 }
 .body-text
 {
@@ -56,11 +68,14 @@ main
     margin:0;
     font-weight: 500;
     color: hsl(0, 0%, 50%);
+    line-height: 1.5em;
+    margin-bottom: 1em;
 }
 #imageicon
 {
     width: 2em;
     height: 2em;
+    margin-right: 1em;
 }
 .label-component
 {
@@ -68,4 +83,5 @@ main
     display: flex;
     align-items: center;
     justify-content: left;
+
 }
